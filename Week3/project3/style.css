@@ -1,0 +1,103 @@
+
+html{
+    margin: 2px;
+    box-sizing:border-box;
+    display: block;
+    background-repeat: inherit;
+    background-position-x: center
+}
+.root{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 1.7em;
+    
+}
+
+ #HYF{
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 2.2em;
+    color: rgb(100, 18, 18)
+}
+    
+.header{
+    background-color:blue;
+    padding: 1.5em;
+    border: 1px solid; 
+   
+}
+
+select{
+    background-color: white;
+}
+ 
+.body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    grid-gap: 2%;
+  }
+
+#repo_info{
+padding-top: 50px;
+margin: 10px;
+padding: 10px;
+}
+
+.repoContainer {
+    box-sizing: border-box;;
+     width: 100%;
+     border: 1px solid; 
+     border-color: whitesmoke;
+     padding: 10px;
+     background-color: rgb(243, 231, 231);
+     font-size: 0.5em;
+     margin-top: 2%;
+     
+}
+
+#repo_contributors {
+
+margin: 10px;
+padding: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: oblique;
+font-size: .5em;
+}
+
+
+#contributorList{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.contributorContainer{
+    box-sizing: border-box;;
+    width: 100%;
+    border: 1px solid; 
+    border-color: rgb(243, 231, 231);
+    padding: 10px;
+    background-color: rgb(243, 231, 231);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.contributorContainer h3{
+    background-color: rgb(204, 200, 200);
+    padding: 1%;
+    border-radius: 15px;
+}
+
+
+#repo_contributors img{
+width: 150px;
+height: 150px;
+border-radius: 5%;
+}
